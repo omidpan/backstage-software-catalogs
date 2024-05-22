@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: ed-learning
-  description: Everything related ed platfrom
+  description: Everything related ed learning
 spec:
   owner: user:Ashwini.Jadhav
-  subdomainOf: ed-platform
+  subdomainOf: Ed
