@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: classcraft-integration-svc
+  # This is an extra long description with Markdown
+  description: |
+    Pub sub service to Nexus message broker
+    - Nexus SDK
+    - Kafka
+    - Hasura Actons
+    - S3
+  links:
+    - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc
+      title: classcraft-integration-svc
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: theme4
+  system: classcraft-system
+  providesApis:
+    - nexus-endpoint
+    - openapi-oas

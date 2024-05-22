@@ -4,9 +4,9 @@ metadata:
   name: classcraft-system
   description: Everything related to classcraft
   tags:
-    - svc
-    - hasurra
-    - nexus
+    - Micro-service
+    - Hasurra
+    - Nexus
     - springboot
 spec:
   owner: theme4
