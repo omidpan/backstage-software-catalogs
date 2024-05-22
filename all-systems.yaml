@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: ed-and-classcraft-systems
-  description: A collection of ed-and-classcraft systems
+  name: classcraft-system
+  description: A collection of classcraft system
 spec:
   targets:
     - ./systems/classcraft-system.yaml  

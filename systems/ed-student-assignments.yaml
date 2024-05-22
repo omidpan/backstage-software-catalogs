@@ -3,9 +3,10 @@ kind: System
 metadata:
   name: ed-student-assignments
   description: Action wise services called from Ed Student - Assignments
-  tag:
-  - test
+  tags:
+  - lift
+  - classcraft 
 spec:
   owner: theme7
   domain: ed-learning
-  # subdomainOf: ed-platform  
+  subdomainOf: Ed 

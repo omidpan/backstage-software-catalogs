@@ -3,7 +3,7 @@ kind: Domain
 metadata:
   name: classcraft
   description: Everything related to classcraft domain (User data,Integration,Session data,Summarization)
-  title: Classcraft Domain
+  # title: class
   links:
     - url: https://confluence.hmhco.com/display/PTWS/Classcraft
       title: classcraft Homepage
