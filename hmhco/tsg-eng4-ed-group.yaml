@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: theme4
+  name: theme7
   description: Ed platform (Safal)
 spec:
   type: team
