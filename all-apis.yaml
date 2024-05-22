@@ -6,5 +6,5 @@ metadata:
 spec:
   targets:
     - ./apis/nexus-endpoint-api.yaml
-    - ./apis/openapi-oas-api.yaml
+    # - ./apis/openapi-oas-api.yaml
     - ./apis/student-assignments-api.yaml
