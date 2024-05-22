@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ed-student-assignments
+  description: Action wise services called from Ed Student - Assignments
+spec:
+  owner: theme7
+  domain: ed-learning
+  subdomainOf: ed-platform  

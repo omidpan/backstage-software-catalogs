@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: ed-platform
+  description: Everything related to Ed
+  links:
+    - url: hhttps://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
+      title: ED platfrom Services
+    - url: https://confluence.hmhco.com/display/EDPS/List+of+Services+used+from+Ed+Student+-+Assignments
+      title: Domain Summary of Services
+      icon: dashboard
+spec:
+  owner: hmh-co

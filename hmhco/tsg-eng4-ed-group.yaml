@@ -15,11 +15,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: developer3
+  name: Ashwini.Jadhav
 spec:
   profile:
     # Intentional no displayName for testing
-    email: developer3@hmhco.com
+    email: Ashwini.Jadhav3@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
   memberOf: [theme7]
 ---
