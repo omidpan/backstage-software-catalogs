@@ -6,4 +6,5 @@ metadata:
 spec:
   targets:
     - ./components/classcraft-integration-svc-component.yaml
+    - ./components/classcraft-session-data-svc-componet.yaml
     - ./components/lift-component.yaml

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: classcraft-ed-resources
+  description: A collection of all Ed and Classcraft resources
+spec:
+  targets:
+    - ./resources/hasura-db-resource.yaml

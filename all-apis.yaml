@@ -7,4 +7,5 @@ spec:
   targets:
     # - ./apis/nexus-endpoint-api.yaml
     - ./apis/integration-svc-openai-api.yaml
+    - ./apis/session-data-graphql.yaml
     - ./apis/student-assignments-api.yaml

@@ -8,5 +8,5 @@ spec:
     - ./all-apis.yaml
     - ./all-components.yaml
     - ./all-domains.yaml
-    # - ./all-resources.yaml
+    - ./all-resources.yaml
     - ./all-systems.yaml
