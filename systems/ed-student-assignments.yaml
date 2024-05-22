@@ -3,6 +3,8 @@ kind: System
 metadata:
   name: ed-student-assignments
   description: Action wise services called from Ed Student - Assignments
+  tag:
+  - test
 spec:
   owner: theme7
   domain: ed-learning
