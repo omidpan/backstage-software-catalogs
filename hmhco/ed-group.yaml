@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ed
+  description: The Ed platform organization
+spec:
+  type: sub-department
+  profile:
+    displayName: Ed Platform organization
+    email: ed@hmh.com
+  parent: engineering
+  children: [theme7]

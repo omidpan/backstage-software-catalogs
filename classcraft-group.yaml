@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Theme
+  description: The infra department
+spec:
+  type: team
+  # Intentional no profile for testing
+  parent: ed-learning
+  children: []

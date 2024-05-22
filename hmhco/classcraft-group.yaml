@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: classcraft
+  description: The classcraft system
+spec:
+  type: sub-department
+  profile:
+    displayName: Classcraft domain
+    email: classcraft@hmh.com
+  parent: engineering
+  children: [theme4]
