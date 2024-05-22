@@ -4,10 +4,11 @@ metadata:
   name: classcraft-system
   description: Everything related to classcraft
   tags:
-    - Microservice
-    - Hasurra
-    - Nexus
+    - microservice
+    - hasurra
+    - nexus
     - springboot
 spec:
   owner: theme4
   domain: classcraft
+  subdomainOf: Ed
