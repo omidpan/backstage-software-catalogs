@@ -4,8 +4,8 @@ metadata:
   name: openapi-oas-action
   description: The OpenAi API
   tags:
-    - Hasura
-    - Rest
+    - hasura
+    - rest
   links:
     - url: https://github.com/swagger-api/swagger-petstore
       title: GitHub Repo

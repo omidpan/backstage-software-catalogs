@@ -7,6 +7,9 @@ metadata:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main/metadata/actions.graphql
       title: classcraft Actioln Graphql
       icon: github
+  tags:
+    - hasura
+    - graphql      
 spec:
   type: graphql
   lifecycle: production
