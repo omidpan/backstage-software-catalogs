@@ -6,4 +6,4 @@ metadata:
 spec:
   owner: theme7
   domain: ed-learning
-  subdomainOf: ed-platform  
+  # subdomainOf: ed-platform  

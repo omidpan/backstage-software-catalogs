@@ -7,3 +7,4 @@ spec:
   targets:
     - ./domains/ed-learning-domain.yaml
     - ./domains/ed-platform-domain.yaml
+    - ./domains/classcraft-domain.yaml

@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./systems/ed-student-assignments.yaml
+    - ./systems/classcraft-system.yaml

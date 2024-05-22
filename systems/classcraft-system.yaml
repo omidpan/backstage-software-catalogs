@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: classcraft-system
+  description: Everything related to classcraft
+  tags:
+    - svc
+    - hasurra
+    - nexus
+    - springboot
+spec:
+  owner: theme4
+  domain: classcraft
