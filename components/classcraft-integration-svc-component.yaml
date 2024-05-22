@@ -4,7 +4,7 @@ metadata:
   name: classcraft-integration-svc
   # This is an extra long description with Markdown
   description: |
-    Pub sub service to Nexus message broker
+    Pub sub service to Nexus message broker and handle Hasura Actions
     - Nexus SDK
     - Kafka
     - Hasura Actons
@@ -19,5 +19,5 @@ spec:
   owner: theme4
   system: classcraft-system
   providesApis:
+      - openapi-oas-action
     # - nexus-endpoint-api
-    - openapi-oas

@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: openapi-oas
+  name: openapi-oas-action
   description: The OpenAi API
   tags:
     - Hasura
