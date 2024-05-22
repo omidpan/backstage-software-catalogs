@@ -4,7 +4,7 @@ metadata:
   name: lift
   # This is an extra long description with Markdown
   description: |
-    [The HMH Ed platform login](https://www.hmhco.com/ui/login/) is an example of login Interface to get access to learning.    - First item
+    [The HMH Ed platform login](https://www.hmhco.com/ui/login/) is an example of login Interface to get access to learning.
     - Country(drop down list)
     - Organization(drop down list)
     - username
