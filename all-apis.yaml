@@ -5,6 +5,6 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
-    - ./apis/nexus-endpoint-api.yaml
-    # - ./apis/openapi-oas-api.yaml
+    # - ./apis/nexus-endpoint-api.yaml
+    - ./apis/integration-svc-openai-api.yaml
     - ./apis/student-assignments-api.yaml

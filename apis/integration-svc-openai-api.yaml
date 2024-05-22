@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: openapi-oas
+  description: The OpenAi API
+  tags:
+    - Hasura
+    - Rest
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/tree/main/build/src/main/java/com/hmhco/classcraft/integration/oas
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: theme4
+  definition:
+    $text: ./hasura-action-oas.yaml

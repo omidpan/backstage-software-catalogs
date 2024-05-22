@@ -19,5 +19,5 @@ spec:
   owner: theme4
   system: classcraft-system
   providesApis:
-    - nexus-endpoint
-    # - openapi-oas
+    # - nexus-endpoint-api
+    - openapi-oas
