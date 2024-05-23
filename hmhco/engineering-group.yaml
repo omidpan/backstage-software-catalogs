@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: engineering
-  description: The engeering department
+  description: The engeering business-unit
 spec:
-  type: department
+  type: business-unit
   parent: hmh-co
   children: [ed, classcraft]
