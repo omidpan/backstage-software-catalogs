@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+  namespace: hmh-ns
   name: engineering
   description: The engeering business-unit
 spec:

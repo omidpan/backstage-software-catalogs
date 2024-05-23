@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: ed-student-assignments
+  namespace: ed-ns  
   description: Action wise services called from Ed Student - Assignments
   tags:
   - lift

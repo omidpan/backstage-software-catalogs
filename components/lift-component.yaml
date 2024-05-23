@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: lift
+  namespace: ed-ns  
   # This is an extra long description with Markdown
   description: |
     [The HMH Ed platform login](https://www.hmhco.com/ui/login/) is an example of login Interface to get access to learning.

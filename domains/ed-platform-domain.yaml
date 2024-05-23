@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
+  namespace: hmh-ns
   name: Ed
   description: Everything related to Ed
   links:
