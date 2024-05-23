@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  namespace: ed-ns
+  namespace: engineering-ns
   name: theme7
   description: Ed platform (Safal)
 spec:
@@ -16,7 +16,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  namespace: ed-ns
+  namespace: engineering-ns
   name: Ashwini.Jadhav
 spec:
   profile:
@@ -28,7 +28,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  namespace: ed-ns
+  namespace: engineering-ns
   name: developer4
 spec:
   profile:

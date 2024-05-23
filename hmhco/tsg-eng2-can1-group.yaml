@@ -3,7 +3,7 @@ kind: Group
 metadata:
   name: theme4
   description: classcraft java & script
-  namespace: classcraft-ns  
+  namespace: engineering-ns
 spec:
   type: team
   profile:
@@ -17,7 +17,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: developer1
-  namespace: classcraft-ns  
+  namespace: engineering-ns  
 spec:
   profile:
     # Intentional no displayName for testing
@@ -29,7 +29,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: developer2
-  namespace: classcraft-ns  
+  namespace: engineering-ns  
 spec:
   profile:
     displayName: Developer 2
