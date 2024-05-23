@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: classcraft
+  namespace: classcraft-ns
   description: Everything related to classcraft domain (User data,Integration,Session data,Summarization)
   # title: class
   links:

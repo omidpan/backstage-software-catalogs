@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: classcraft-session-data-svc
+  namespace: classcraft-ns
   # This is an extra long description with Markdown
   description: |
     Manage classcraft session data for classrooms

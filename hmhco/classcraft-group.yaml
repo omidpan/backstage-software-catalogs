@@ -3,6 +3,7 @@ kind: Group
 metadata:
   name: classcraft
   description: The classcraft system
+  namespace: classcraft-ns
 spec:
   type: product-area
   profile:
