@@ -5,7 +5,7 @@ metadata:
   namespace: demo-ns
   description: The HMH  organization
   links:
-    - url: ttps://www.hmhco.com/ui/login/
+    - url: https://www.hmhco.com/ui/login/
       title: Website
     - url: https://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
       title: Intranet
