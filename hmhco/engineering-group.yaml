@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  namespace: engineering-ns
+  namespace: demo-ns
   name: engineering
   description: The engeering business-unit
 spec:

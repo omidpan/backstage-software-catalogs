@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  namespace: classcraft-ns
+  namespace: demo-ns
   name: session-data-graphql
   description: SWAPI GraphQL Schema
   links:

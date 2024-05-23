@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: openapi-oas-action
   description: The OpenAi API
-  namespace: classcraft-ns  
+  namespace: demo-ns  
   tags:
     - hasura
     - rest

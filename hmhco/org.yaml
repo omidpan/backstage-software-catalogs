@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: hmh-co
+  namespace: demo-ns
   description: The HMH  organization
   links:
     - url: ttps://www.hmhco.com/ui/login/
@@ -20,6 +21,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: hmh-groups
+  namespace: demo-ns  
   description: A collection of hmh engineering groups
 spec:
   targets:

@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: nexus-rest-endpoint
-  namespace: classcraft-ns  
+  namespace: demo-ns  
   description: nexus  API using Nexus SDK and  allows you to subscribe and publish events to Nexus Kafka Broker
   tags:
     - Kafka

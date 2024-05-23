@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: classcraft-integration-svc
+  namespace: demo-ns
   # This is an extra long description with Markdown
   description: |
     Pub sub service to Nexus message broker and handle Hasura Actions

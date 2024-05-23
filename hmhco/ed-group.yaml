@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  namespace: engineering-ns
+  namespace: demo-ns
   name: ed
   description: The Ed platform organization
 spec:
