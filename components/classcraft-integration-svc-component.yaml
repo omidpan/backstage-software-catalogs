@@ -20,4 +20,4 @@ spec:
   system: classcraft-system
   providesApis:
       - openapi-oas-action
-      - nexus-endpoint-api
+      - nexus-rest-endpoint

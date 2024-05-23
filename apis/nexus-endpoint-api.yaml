@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: nexus-endpoint-api
+  name: nexus-rest-endpoint
   description: nexus  API using Nexus SDK and  allows you to subscribe and publish events to Nexus Kafka Broker
   tags:
     - Kafka
@@ -19,7 +19,7 @@ spec:
     info:
       title: Nexus Kafka API
       version: 1.0.0
-      description: " TBD"
+      description: "TBD"
       license:
         name: Apache 2.0
         url: 'https://www.apache.org/licenses/LICENSE-2.0'
