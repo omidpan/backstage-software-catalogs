@@ -10,11 +10,11 @@ metadata:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc
       title: classcraft-integration-svc
       icon: github
-  tags:
-  - nexusSdk
-  - Kafka
-  - hasuraActons
-  - s3
+  # tags:
+  # - nexusSdk
+  # - Kafka
+  # - hasuraActons
+  # - s3
 spec:
   type: service
   lifecycle: experimental
