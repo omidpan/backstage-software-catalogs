@@ -4,7 +4,7 @@ metadata:
   name: ed
   description: The Ed platform organization
 spec:
-  type: sub-department
+  type: business-unit
   profile:
     displayName: Ed Platform organization
     email: ed@hmh.com

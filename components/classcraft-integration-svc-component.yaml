@@ -18,6 +18,4 @@ spec:
   lifecycle: experimental
   owner: theme4
   system: classcraft-system
-  providesApis:
-      - openapi-oas-action
-      - nexus-rest-endpoint
+  providesApis: [openapi-oas-action,nexus-rest-endpoint]

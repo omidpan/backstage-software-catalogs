@@ -17,6 +17,6 @@ spec:
   lifecycle: experimental
   owner: theme4
   system: classcraft-system
-  providesApis:
-      - session-data-graphql
+  providesApis: [session-data-graphql]
+
 

@@ -4,7 +4,7 @@ metadata:
   name: classcraft
   description: The classcraft system
 spec:
-  type: sub-department
+  type: product-area
   profile:
     displayName: Classcraft domain
     email: classcraft@hmh.com
