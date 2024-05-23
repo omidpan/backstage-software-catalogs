@@ -11,10 +11,10 @@ metadata:
       title: classcraft-integration-svc
       icon: github
   tags:
-  - Nexus SDK
+  - nexusSdk
   - Kafka
-  - Hasura Actons
-  - S3
+  - hasuraActons
+  - s3
 spec:
   type: service
   lifecycle: experimental
