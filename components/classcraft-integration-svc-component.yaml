@@ -5,16 +5,14 @@ metadata:
   # This is an extra long description with Markdown
   description: |
     Pub sub service to Nexus message broker and handle Hasura Actions
-
+    - Nexus SDK
+    - Kafka
+    - Hasura Actons
+    - S3
   links:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc
       title: classcraft-integration-svc
       icon: github
-  # tags:
-  # - nexusSdk
-  # - Kafka
-  # - hasuraActons
-  # - s3
 spec:
   type: service
   lifecycle: experimental
