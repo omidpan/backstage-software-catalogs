@@ -5,10 +5,11 @@ metadata:
   name: eks-cluster
   title: A service App on AWS EKS Cluster
   description: Deploy a Node.js Application on AWS EKS cluster using Terraform
+  namespace: demo-ns
   annotations:
     github.com/project-slug: omidpan/aws-eks  
 spec:
-  owner: demo-ns/theme4
+  owner: theme4
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are

@@ -2,10 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: clusterapp
+  namespace: demo-ns  
   annotations:
     github.com/project-slug: omidpan/aws-eks # Change the value to your github repo which contains terraform code.
     backstage.io/techdocs-ref: dir:.  
 spec:
   type: service
-  owner: demo-ns/theme4
+  owner: theme4
   lifecycle: experimental
