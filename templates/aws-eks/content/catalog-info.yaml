@@ -7,5 +7,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.  
 spec:
   type: service
-  owner: theme4
+  owner: demo-ns/theme4
   lifecycle: experimental
