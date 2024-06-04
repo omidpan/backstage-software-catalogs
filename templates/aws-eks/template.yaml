@@ -8,7 +8,7 @@ metadata:
   annotations:
     github.com/project-slug: omidpan/aws-eks  
 spec:
-  owner: user:developer1
+  owner: theme4
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are
