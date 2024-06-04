@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: user-templates
+  description: a collection of user templates
+spec:
+  targets:
+    - ./templates/aws-eks/template.yaml
