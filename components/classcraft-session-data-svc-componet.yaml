@@ -9,6 +9,8 @@ metadata:
     - postgres
     - graphql
     - Hasura integration
+  annotations:
+    datadoghq.com/site: datadoghq.com    
   links:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service
       title: classcraft-session-data-svc
