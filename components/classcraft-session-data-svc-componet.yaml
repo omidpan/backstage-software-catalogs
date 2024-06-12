@@ -10,7 +10,8 @@ metadata:
     - graphql
     - Hasura integration
   annotations:
-    datadoghq.com/site: datadoghq.com    
+    datadoghq.com/dashboard-url: datadoghq.com,datadoghq.com/dashboard2
+    datadoghq.com/graph-token: someToken
   links:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service
       title: classcraft-session-data-svc

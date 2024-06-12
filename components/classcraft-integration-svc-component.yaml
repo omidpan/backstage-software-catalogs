@@ -14,6 +14,9 @@ metadata:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc
       title: classcraft-integration-svc
       icon: github
+  annotations:
+    datadoghq.com/dashboard-url: datadoghq.com,datadoghq.com/dashboard2
+    datadoghq.com/graph-token: someToken      
 spec:
   type: service
   lifecycle: experimental
