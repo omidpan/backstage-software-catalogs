@@ -15,7 +15,7 @@ metadata:
       title: classcraft-integration-svc
       icon: github
   annotations:
-    datadoghq.com/dashboard-url: datadoghq.com,datadoghq.com/dashboard2
+    datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/pq3-z92-iyb/classcraft-user-data-svc
     datadoghq.com/graph-token: someToken      
 spec:
   type: service
