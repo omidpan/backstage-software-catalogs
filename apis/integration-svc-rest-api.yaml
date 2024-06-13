@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: openapi-kafka-rest
+  description: API using Nexus SDK to pub/sub events for Kafka
+  namespace: demo-ns  
+  tags:
+    - Kafka
+    - pubsub
+    - rest
+  links:
+    - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/tree/main/build/src/main/java/com/hmhco/classcraft/integration/nexus
+      title: GitHub Repo
+      icon: github
+spec:
+  type: openapi
+  lifecycle: production
+  owner: theme4
+  definition:
+    $text: ./hasura-action-oas.yaml

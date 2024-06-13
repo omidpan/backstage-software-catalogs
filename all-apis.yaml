@@ -8,4 +8,4 @@ spec:
     - ./apis/integration-svc-openai-api.yaml
     - ./apis/session-data-graphql.yaml
     - ./apis/student-assignments-api.yaml
-    - ./apis/classcraft-nexus-endpoint-api.yaml    
+    - ./apis/integration-svc-rest-api.yaml    
