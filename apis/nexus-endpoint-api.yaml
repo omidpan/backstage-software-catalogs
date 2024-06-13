@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
+  name: nexus-endpoint-rest-api
   namespace: demo-ns  
-  name: nexus-rest-endpoint
   description: nexus API using Nexus SDK and  allows you to subscribe and publish events to Nexus Kafka Broker
   links:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/tree/main/build/src/main/java/com/hmhco/classcraft/integration/nexus
