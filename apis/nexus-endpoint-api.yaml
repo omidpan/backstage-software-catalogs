@@ -12,7 +12,7 @@ metadata:
     - Kafka
     - pubsub
 spec:
-  type: asyncapi
+  type: openapi
   lifecycle: production
   owner: theme4
   # definition: |
