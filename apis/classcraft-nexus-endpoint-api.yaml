@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: endpoint-nexus-rest
+  name: openapi-kafka-rest
   description: API using Nexus SDK to pub/sub events for Kafka
   namespace: demo-ns  
   tags:
