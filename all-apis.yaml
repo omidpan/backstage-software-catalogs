@@ -5,7 +5,7 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
-    - ./apis/classcraft-nexus-endpoint-api.yaml
     - ./apis/integration-svc-openai-api.yaml
     - ./apis/session-data-graphql.yaml
     - ./apis/student-assignments-api.yaml
+    - ./apis/classcraft-nexus-endpoint-api.yaml    
