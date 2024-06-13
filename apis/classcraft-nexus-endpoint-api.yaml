@@ -15,6 +15,8 @@ spec:
   type: openapi
   lifecycle: production
   owner: theme4
+  definition:
+    $text: ./hasura-action-oas.yaml  
   # definition: |
   #   asyncapi: 3.0.0
   #   info:
