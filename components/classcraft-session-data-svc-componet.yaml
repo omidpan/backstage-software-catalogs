@@ -11,7 +11,7 @@ metadata:
     - Hasura integration
   annotations:
     datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
-    datadoghq.com/graph-token: someToken
+    datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main'
   links:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service
