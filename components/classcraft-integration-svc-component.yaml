@@ -24,5 +24,5 @@ spec:
   owner: theme4
   system: classcraft-system
   providesApis: 
-   - openapi-oas-action-1
+   - endpoint-nexus-rest
    - openapi-oas-action
