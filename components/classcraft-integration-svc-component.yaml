@@ -18,6 +18,7 @@ metadata:
     datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/kb7-pbm-s4y/classcraft-integration-svc
     datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
     pagerduty.com/integration-key: someToken
+    pagerduty.com/service-id:  someServiceId
     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/blob/main'      
 spec:
   type: service
