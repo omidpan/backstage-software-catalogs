@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: classcraft-user-data-svc
+  namespace: demo-ns
+  # This is an extra long description with Markdown
+  description: |
+    Pub sub service to Nexus message broker and handle Hasura Actions
+    - Hasura
+    - postgres
+  links:
+    - url: https://hapi.dev.hmhco.com/classcraft-user-data-svc/
+      title: classcraft-user-data-svc
+      icon: github
+  annotations:
+    pagerduty.com/integration-key: someToken
+    pagerduty.com/service-id:  someServiceId
+    backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-user-data-service'      
+spec:
+  type: service
+  lifecycle: experimental
+  owner: theme4
+  system: classcraft-system
+  providesApis: []
