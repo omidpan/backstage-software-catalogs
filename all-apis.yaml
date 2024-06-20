@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: ed-and-classcraft-apis
-  description: A collection of all Backstage example APIs
+  name: apis
+  namespace: tsg  
+  description: A collection of all system's APIs
 spec:
   targets:
     # - ./apis/integration-svc-openai-api.yaml

@@ -6,8 +6,8 @@ metadata:
   description: A collection of all HMH co entities, except users, groups
 spec:
   targets:
-#     - ./all-apis.yaml
-#     - ./all-components.yaml
+    - ./all-apis.yaml
+    - ./all-components.yaml
     - ./all-domains.yaml
 #     # - ./all-resources.yaml
     - ./all-systems.yaml
