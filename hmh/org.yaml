@@ -5,7 +5,6 @@ metadata:
   namespace: tsg  
   description: HMH TSG-Ops groups
 spec:
-  type: file
   targets:
     - ./tsg-manager-group.yaml
     # - ./engineering-group.yaml

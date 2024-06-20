@@ -5,6 +5,5 @@ metadata:
   name: HMH-org-location
   description: A collection of all HMH organizations groups
 spec:
-  type: file
   targets:
     - ./hmh/org.yaml
