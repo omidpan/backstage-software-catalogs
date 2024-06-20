@@ -41,6 +41,6 @@ spec:
     - ./ed-group.yaml
     # - ./classcraft-group.yaml
     # - ./tsg-eng2-can1-group.yaml
-    # - ./tsg-eng4-ed-group.yaml
-    - ./tsg-eng2-cms-8-group.yaml
+    - ./tsg-eng4-ed-svc-group.yaml
+    # - ./tsg-eng2-cms-8-group.yaml
     # - ./tsg-eng1-ed-9-group.yaml
