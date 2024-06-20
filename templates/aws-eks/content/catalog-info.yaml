@@ -8,5 +8,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.  
 spec:
   type: service
-  owner: theme4
+  owner: tsg-eng4-ed-svc
   lifecycle: experimental

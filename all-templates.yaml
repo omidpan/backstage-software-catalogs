@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: user-templates
+  name: templates
   description: a collection of user templates
 spec:
   targets:
