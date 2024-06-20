@@ -4,6 +4,10 @@ metadata:
   name: ed-assignments
   namespace: tsg  
   description: Action wise services called from Ed Student - Assignments
+  links:
+    - url: https://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
+      title: Ed Platform Services
+      icon: dashboard  
   tags:
   - lift
   - assignments
