@@ -9,6 +9,8 @@ metadata:
       title: Intranet
 spec:
   type: business-unit
+  profile:
+    displayName: Eng  
   parent: manager
   # children: [tst-eng2-can-1, tsg-en2-cms-8, tsg-eng2-can-2, tsg-eng1-ed-9, tsg-eng1-ed-9]
   children: []
