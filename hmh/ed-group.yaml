@@ -1,13 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  namespace: TSG
-  name: Ed
+  namespace: tsg
+  name: ed
   description: The Ed platform organization
 spec:
   type: business-unit
   profile:
-    displayName: Ed organizations
-    email: ed@hmh.com
-  parent: engineering
-  children: [tsg-eng4-ed-svc]
+    displayName: Ed(organizations)
+  parent: eng
+  children: []

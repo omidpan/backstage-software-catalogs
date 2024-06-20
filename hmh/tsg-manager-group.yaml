@@ -10,7 +10,7 @@ metadata:
 spec:
   type: root
   profile:
-    displayName: HMH
+    displayName: TSG
   children: [eng]
 ---
 apiVersion: backstage.io/v1alpha1
