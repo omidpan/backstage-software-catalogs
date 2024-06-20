@@ -3,7 +3,7 @@ kind: Location
 metadata:
   name: TSG
   namespace: tsg  
-  description: TSG/Ops Groups
+  description: TSG and Ops Groups
 spec:
   targets:
     - ./tsg-manager-group.yaml
