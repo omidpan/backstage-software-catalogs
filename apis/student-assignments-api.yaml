@@ -11,6 +11,7 @@ spec:
   type: grpc
   lifecycle: production
   owner: tsg-eng4-ed-svc
+  system: ed-assignments  
   definition: |
 
 
