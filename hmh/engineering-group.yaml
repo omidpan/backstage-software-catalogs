@@ -25,7 +25,7 @@ spec:
   profile:
     displayName: Cherie Black
     email: cherie.black@hmhco.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
   memberOf: [eng]
 ---
 apiVersion: backstage.io/v1alpha1
