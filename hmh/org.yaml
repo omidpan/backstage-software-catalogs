@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: groups
+  name: HMH
   namespace: TSG  
   description: HMH TSG-Ops groups
 spec:
