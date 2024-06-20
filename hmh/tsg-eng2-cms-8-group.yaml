@@ -8,7 +8,7 @@ spec:
   type: team
   profile:
     displayName: Gummy Bears
-  parent: eng
+  parent: ed
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
