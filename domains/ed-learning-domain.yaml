@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  namespace: TSG
-  name: Ed-Learning
+  namespace: tsg
+  name: ed-learning
   description: ED is the teaching and learning system that combines the best of technology, content, and instruction to provide a personalized experience with HMH programs.
 spec:
-  owner: user:Peter.George
+  owner: eng
   subdomainOf: Ed
