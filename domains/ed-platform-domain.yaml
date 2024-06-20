@@ -7,10 +7,12 @@ metadata:
   links:
     - url: https://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
       title: ed platform services
+      icon: dashboard
     - url: https://scm.eng.hmhco.com/Ed-Learning
       title: Ed-Learning
       icon: github
     - url: https://www.hmhco.com/ui/login/
       title: Ed login
+      icon: dashboard
 spec:
   owner: eng
