@@ -13,7 +13,7 @@ spec:
     displayName: HMH
     email: peter.george@hmhco.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
-  children: []
+  children: [eng]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
