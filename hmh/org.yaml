@@ -11,4 +11,4 @@ spec:
     - ./ed-group.yaml
     - ./tsg-eng2-can-1-group.yaml
     - ./tsg-eng4-ed-svc-group.yaml
-    # - ./tsg-eng2-cms-8-group.yaml
+    - ./tsg-eng2-cms-8-group.yaml
