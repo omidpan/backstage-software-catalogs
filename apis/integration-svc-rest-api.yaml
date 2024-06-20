@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: openapi-kafka-rest
   description: API using Nexus SDK to pub/sub events for Kafka
-  namespace: demo-ns  
+  namespace: TSG  
   tags:
     - Kafka
     - pubsub

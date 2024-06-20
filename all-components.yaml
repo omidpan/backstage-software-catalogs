@@ -5,7 +5,7 @@ metadata:
   description: A collection of all Ed and classcraft components
 spec:
   targets:
-    - ./components/classcraft-integration-svc-component.yaml
-    - ./components/classcraft-session-data-svc-component.yaml
-    - ./components/classcraft-user-data-svc-component.yaml    
+    # - ./components/classcraft-integration-svc-component.yaml
+    # - ./components/classcraft-session-data-svc-component.yaml
+    # - ./components/classcraft-user-data-svc-component.yaml    
     - ./components/lift-component.yaml

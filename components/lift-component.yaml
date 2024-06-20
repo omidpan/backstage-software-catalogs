@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: lift
-  namespace: demo-ns  
+  namespace: TSG  
   # This is an extra long description with Markdown
   description: |
     [The HMH Ed platform login](https://www.hmhco.com/ui/login/) is an example of login Interface to get access to learning.
@@ -18,9 +18,9 @@ metadata:
     datadoghq.com/dashboard-url: datadoghq.com,datadoghq.com/dashboard2
     # datadoghq.com/graph-token: someToken      
 spec:
-  type: service
+  type: web
   lifecycle: production
-  owner: theme7
+  owner: tsg-eng4-ed-svc
   system: ed-student-assignments
   providesApis:
     - ids-grid-api

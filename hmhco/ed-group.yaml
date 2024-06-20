@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  namespace: demo-ns
-  name: ed
+  namespace: TSG
+  name: Ed
   description: The Ed platform organization
 spec:
   type: business-unit
@@ -10,4 +10,4 @@ spec:
     displayName: Ed Platform organization
     email: ed@hmh.com
   parent: engineering
-  children: [theme7]
+  children: [tsg-eng4-ed-svc]

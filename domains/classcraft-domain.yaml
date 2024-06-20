@@ -1,16 +1,16 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: classcraft
-  namespace: demo-ns
-  description: Everything related to classcraft domain (User data,Integration,Session data,Summarization)
-  # title: class
-  links:
-    - url: https://confluence.hmhco.com/display/PTWS/Classcraft
-      title: classcraft Homepage
-    - url: https://confluence.hmhco.com/display/PTWS/Target+Architecture
-      title: Domain target Architecture 
-      icon: dashboard
-spec:
-  owner: theme4
-  subdomainOf: Ed
+# apiVersion: backstage.io/v1alpha1
+# kind: Domain
+# metadata:
+#   name: classcraft
+#   namespace: TSG
+#   description: Everything related to classcraft domain (User data,Integration,Session data,Summarization)
+#   # title: class
+#   links:
+#     - url: https://confluence.hmhco.com/display/PTWS/Classcraft
+#       title: classcraft Homepage
+#     - url: https://confluence.hmhco.com/display/PTWS/Target+Architecture
+#       title: Domain target Architecture 
+#       icon: dashboard
+# spec:
+#   owner: theme4
+#   subdomainOf: Ed

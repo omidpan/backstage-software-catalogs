@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: openapi-kafka-rest
   description: API using Nexus SDK to pub/sub events for Kafka
-  namespace: demo-ns  
+  namespace: TSG  
   tags:
     - Kafka
     - pubsub
@@ -22,7 +22,7 @@ spec:
 # kind: API
 # metadata:
 #   name: endpoint-nexus-rest
-#   namespace: demo-ns  
+#   namespace: TSG  
 #   description: nexus API using Nexus SDK and  allows you to subscribe and publish events to Nexus Kafka Broker
 #   links:
 #     - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/tree/main/build/src/main/java/com/hmhco/classcraft/integration/nexus

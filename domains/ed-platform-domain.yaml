@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  namespace: demo-ns
+  namespace: TSG
   name: Ed
   description: Everything related to Ed
   links:
@@ -11,4 +11,4 @@ metadata:
       title: Domain Summary of Services
       icon: dashboard
 spec:
-  owner: hmh-co
+  owner: HMH

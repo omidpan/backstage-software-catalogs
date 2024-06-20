@@ -1,38 +1,38 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: theme4
-  description: classcraft java & script
-  namespace: demo-ns
+  namespace: TSG
+  name: tsg-eng4-ed-svc
+  description: Safal-Sampark
 spec:
   type: team
   profile:
-    # Intentional no displayName for testing
-    email: tsg-eng2-can1@hmhco.com
+    displayName: Safal-Sampark
+    email: tsg-eng4-ed-svc@hmhco.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
-  parent: classcraft
+  parent: Ed
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: developer1
-  namespace: demo-ns  
+  namespace: TSG
+  name: Ashwini.Jadhav
 spec:
   profile:
     # Intentional no displayName for testing
-    email: developer1@hmhco.com
+    email: Ashwini.Jadhav3@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
-  memberOf: [theme4]
+  memberOf: [tsg-eng4-ed-svc]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: developer2
-  namespace: demo-ns  
+  namespace: TSG
+  name: Saurabh.Kurdukar
 spec:
   profile:
-    displayName: Developer 2
-    email: developer2@hmh.com
+    displayName: Saurabh Kurdukar
+    email: saurabh.kurdukar@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
-  memberOf: [theme4]
+  memberOf: [tsg-eng4-ed-svc]
