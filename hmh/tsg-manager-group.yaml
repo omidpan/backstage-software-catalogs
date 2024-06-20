@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: managers
-  namespace: TSG
+  namespace: tsg
   description: The HMH Technology Solution Group(TSG)
   links:
     - url: https://www.hmhco.com/ui/login/
@@ -15,12 +15,12 @@ spec:
     displayName: HMH
     email: peter.george@hmhco.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
-  children: [engineering]
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  namespace: TSG
+  namespace: tsg
   name: Peter.George
 spec:
   profile:
