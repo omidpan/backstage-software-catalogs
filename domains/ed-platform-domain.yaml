@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  namespace: TSG
-  name: Ed
-  description: Everything related to Ed platform and systems
+  namespace: tsg
+  name: ed-platform
+  description: Everything related to Ed platform and services
   links:
     - url: hhttps://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
-      title: ED platfrom Systems
-    - url: https://confluence.hmhco.com/display/EDPS/List+of+Services+used+from+Ed+Student+-+Assignments
-      title: Domain Summary of Services
+      title: Ed Platform
+    - url: https://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
+      title: summary of Ed services
       icon: dashboard
 spec:
-  owner: HMH
+  owner: eng

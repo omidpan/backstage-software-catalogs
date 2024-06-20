@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: ed-and-classcraft-domains
-  description: A collection of all Ed and Classcraft domains
+  name: domains
+  description: A collection of all domains
 spec:
   targets:
     # - ./domains/classcraft-domain.yaml  
-    - ./domains/ed-learning-domain.yaml
+    # - ./domains/ed-learning-domain.yaml
     - ./domains/ed-platform-domain.yaml

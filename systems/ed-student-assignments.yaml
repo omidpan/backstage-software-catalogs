@@ -2,13 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: ed-assignments
-  namespace: TSG  
+  namespace: tsg  
   description: Action wise services called from Ed Student - Assignments
   tags:
   - lift
   - Assignments
-  - Ed learning
+  - Ed platform
 spec:
   owner: tsg-eng4-ed-svc
-  domain: Ed-Learning
-  subdomainOf: Ed 
+  domain: ed-platform
+  # subdomainOf: Ed 

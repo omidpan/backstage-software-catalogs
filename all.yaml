@@ -1,14 +1,14 @@
-# apiVersion: backstage.io/v1alpha1
-# kind: Location
-# metadata:
-#   namspace: TSG
-#   name: hmh-groups
-#   description: A collection of all HMH co example entities, except users, groups, and templates
-# spec:
-#   targets:
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  namspace: tsg
+  name: entities
+  description: A collection of all HMH co entities, except users, groups
+spec:
+  targets:
 #     - ./all-apis.yaml
 #     - ./all-components.yaml
-#     - ./all-domains.yaml
+    - ./all-domains.yaml
 #     # - ./all-resources.yaml
-#     - ./all-systems.yaml
+    - ./all-systems.yaml
 #     - ./all-templates.yaml
