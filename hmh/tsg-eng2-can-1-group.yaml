@@ -14,23 +14,23 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: developer1
+  name: Simon.Belanger
   namespace: tsg  
 spec:
   profile:
-    # Intentional no displayName for testing
-    email: developer1@hmhco.com
+    displayName: Simon Belanger
+    email: simon.belanger@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
   memberOf: [tsg-eng2-can-1]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: developer2
+  name: Mathieu.Beauregard
   namespace: tsg  
 spec:
   profile:
-    displayName: Developer 2
-    email: developer2@hmh.com
+    displayName: Mathieu Beauregard
+    email: mathieu.beauregard@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
   memberOf: [tsg-eng2-can-1]
