@@ -14,3 +14,44 @@ spec:
   parent: manager
   # children: [tst-eng2-can-1, tsg-en2-cms-8, tsg-eng2-can-2, tsg-eng1-ed-9, tsg-eng1-ed-9]
   children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  namespace: tsg
+  name: Cherie.Black
+spec:
+  profile:
+    displayName: Cherie Black
+    email: cherie.black@hmhco.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [manager]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  namespace: tsg
+  name: Namjoshi.Bhalchandra
+spec:
+  profile:
+    displayName: Namjoshi Bhalchandra
+    email: bhalchandra.namjoshi@hmhco.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [manager]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  namespace: tsg
+  name: Giddu.Padma
+spec:
+  profile:
+    displayName: Giddu Padma
+    email: padma.giddu@hmhco.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [manager]  
+
+
+
+  
