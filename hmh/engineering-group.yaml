@@ -2,13 +2,17 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   namespace: TSG
-  name: engineering
-  description: The engeering unit
+  name: eng
+  description: The engeering business unit
+  links:
+    - url: https://hmhco.sharepoint.com/sites/HMH-TSG-Hub/SitePages/Home.aspx
+      title: Intranet
 spec:
   type: business-unit
   parent: managers
   profile:
-    displayName: Engineering-groups 
+    displayName: Engineering-groups
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf    
   # children: [tst-eng2-can-1, tsg-en2-cms-8,tsg-eng2-can-2,tsg-eng1-ed-9,tsg-eng1-ed-9
   # ]
   children: []
