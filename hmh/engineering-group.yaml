@@ -26,7 +26,7 @@ spec:
     displayName: Cherie Black
     email: cherie.black@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
-  memberOf: [manager]
+  memberOf: [eng]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -38,7 +38,7 @@ spec:
     displayName: Namjoshi Bhalchandra
     email: bhalchandra.namjoshi@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
-  memberOf: [manager]
+  memberOf: [eng]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -50,7 +50,7 @@ spec:
     displayName: Giddu Padma
     email: padma.giddu@hmhco.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
-  memberOf: [manager]  
+  memberOf: [eng]  
 
 
 
