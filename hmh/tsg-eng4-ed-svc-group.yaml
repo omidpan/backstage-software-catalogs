@@ -4,13 +4,14 @@ metadata:
   namespace: tsg
   name: tsg-eng4-ed-svc
   description: Safal-Sampark
+  links:
+    - url: https://confluence.hmhco.com/display/TSGQE/Engineering+Team4
+      title: confluent     
 spec:
   type: team
   profile:
     displayName: Safal-Sampark
-  links:
-    - url: https://confluence.hmhco.com/display/TSGQE/Engineering+Team4
-      title: confluent   
+
   parent: ed
   children: []
 ---
