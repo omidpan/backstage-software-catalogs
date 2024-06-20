@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: TSG
+  name: engineering
+  description: The engeering business-unit
+spec:
+  type: business-unit
+  parent: HMH
+  # children: [tst-eng2-can-1, tsg-en2-cms-8,tsg-eng2-can-2,tsg-eng1-ed-9,tsg-eng1-ed-9
+  # ]
+  children: [tsg-eng4-ed-svc]

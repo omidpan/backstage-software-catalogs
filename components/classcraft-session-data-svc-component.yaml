@@ -1,0 +1,29 @@
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: classcraft-session-data-svc
+#   namespace: TSG
+#   # This is an extra long description with Markdown
+#   description: |
+#     Manage classcraft session data for classrooms
+#     - postgres
+#     - graphql
+#     - Hasura integration
+#   annotations:
+#     datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
+#     datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
+#     # datadoghq.com/graph-size: 'large'
+#     pagerduty.com/integration-key: someToken        
+#     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main'
+#   links:
+#     - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service
+#       title: classcraft-session-data-svc
+#       icon: github
+# spec:
+#   type: service
+#   lifecycle: experimental
+#   owner: theme4
+#   system: classcraft-system
+#   providesApis: [session-data-graphql]
+
+

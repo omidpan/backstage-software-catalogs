@@ -5,5 +5,5 @@ metadata:
   description: A collection of classcraft system
 spec:
   targets:
-    - ./systems/classcraft-system.yaml  
+    # - ./systems/classcraft-system.yaml  
     - ./systems/ed-student-assignments.yaml

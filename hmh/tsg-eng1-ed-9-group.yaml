@@ -1,0 +1,38 @@
+# apiVersion: backstage.io/v1alpha1
+# kind: Group
+# metadata:
+#   name: theme4
+#   description: classcraft java & script
+#   namespace: TSG
+# spec:
+#   type: team
+#   profile:
+#     # Intentional no displayName for testing
+#     email: tsg-eng2-can1@hmhco.com
+#     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+#   parent: classcraft
+#   children: []
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: User
+# metadata:
+#   name: developer1
+#   namespace: TSG  
+# spec:
+#   profile:
+#     # Intentional no displayName for testing
+#     email: developer1@hmhco.com
+#     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+#   memberOf: [theme4]
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: User
+# metadata:
+#   name: developer2
+#   namespace: TSG  
+# spec:
+#   profile:
+#     displayName: Developer 2
+#     email: developer2@hmh.com
+#     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
+#   memberOf: [theme4]

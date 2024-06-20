@@ -5,6 +5,6 @@ metadata:
   description: A collection of all Ed and Classcraft domains
 spec:
   targets:
-    - ./domains/classcraft-domain.yaml  
+    # - ./domains/classcraft-domain.yaml  
     - ./domains/ed-learning-domain.yaml
     - ./domains/ed-platform-domain.yaml

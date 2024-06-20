@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  namespace: demo-ns
+  namespace: TSG
   name: ids-grid-api
   description: Student - Assignments 
 spec:

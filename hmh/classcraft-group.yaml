@@ -2,12 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: classcraft
-  description: The classcraft system
-  namespace: demo-ns
+  description: The classcraft product Area
+  namespace: TSG
 spec:
   type: product-area
   profile:
-    displayName: Classcraft domain
+    displayName: Classcraft(Product Area)
     email: classcraft@hmh.com
   parent: engineering
-  children: [theme4]
+  children: [tsg-eng2-can-1,tsg-eng2-cms-8]

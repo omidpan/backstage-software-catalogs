@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: clusterapp
-  namespace: demo-ns  
+  namespace: TSG  
   annotations:
     github.com/project-slug: omidpan/aws-eks # Change the value to your github repo which contains terraform code.
     backstage.io/techdocs-ref: dir:.  

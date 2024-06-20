@@ -1,0 +1,46 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: HMH
+  namespace: TSG
+  description: The HMH Technology Solution Group(TSG)
+  links:
+    - url: https://www.hmhco.com/ui/login/
+      title: Website
+    - url: https://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
+      title: Intranet
+spec:
+  type: root
+  profile:
+    displayName: HMH Corp
+    email: peter.george@hmhco.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
+  children: [engineering]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  namespace: TSG
+  name: Peter.George
+spec:
+  profile:
+    displayName: Peter George
+    email: peter.george@hmhco.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [HMH]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: hmh-groups
+  namespace: TSG  
+  description: HMH TSG & Ops 
+spec:
+  targets:
+    - ./engineering-group.yaml
+    - ./ed-group.yaml
+    # - ./classcraft-group.yaml
+    # - ./tsg-eng2-can1-group.yaml
+    - ./tsg-eng4-ed-svc-group.yaml
+    # - ./tsg-eng2-cms-8-group.yaml
+    # - ./tsg-eng1-ed-9-group.yaml

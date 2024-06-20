@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: openapi-oas-action
   description: The OpenAi API
-  namespace: demo-ns  
+  namespace: TSG  
   tags:
     - hasura
     - rest
@@ -17,6 +17,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: theme4
+  owner: tsg-end2-cms-8
   definition:
     $text: ./hasura-action-oas.yaml

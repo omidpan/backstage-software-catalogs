@@ -1,10 +1,10 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  namespace: demo-ns
-  name: hasura-postgres
-  description: Stores artist details
-spec:
-  type: database
-  owner: theme4
-  system: classcraft-system
+# apiVersion: backstage.io/v1alpha1
+# kind: Resource
+# metadata:
+#   namespace: TSG
+#   name: hasura-postgres
+#   description: Stores artist details
+# spec:
+#   type: database
+#   owner: theme4
+#   system: classcraft-system

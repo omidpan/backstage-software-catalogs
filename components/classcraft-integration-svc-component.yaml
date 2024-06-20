@@ -1,29 +1,30 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: classcraft-integration-svc
-  namespace: demo-ns
-  # This is an extra long description with Markdown
-  description: |
-    Pub sub service to Nexus message broker and handle Hasura Actions
-    - Nexus SDK
-    - Kafka
-    - Hasura Actons
-    - S3
-  links:
-    - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc
-      title: classcraft-integration-svc
-      icon: github
-  annotations:
-    datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/kb7-pbm-s4y/classcraft-integration-svc
-    datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
-    pagerduty.com/integration-key: [INTEGRATION-KEY]
-    backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/blob/main'      
-spec:
-  type: service
-  lifecycle: experimental
-  owner: theme4
-  system: classcraft-system
-  providesApis: 
-   - openapi-kafka-rest
-   - openapi-oas-action
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: classcraft-integration-svc
+#   namespace: TSG
+#   # This is an extra long description with Markdown
+#   description: |
+#     Pub sub service to Nexus message broker and handle Hasura Actions
+#     - Nexus SDK
+#     - Kafka
+#     - Hasura Actons
+#     - S3
+#   links:
+#     - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc
+#       title: classcraft-integration-svc
+#       icon: github
+#   annotations:
+#     datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/kb7-pbm-s4y/classcraft-integration-svc
+#     datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
+#     pagerduty.com/integration-key: someToken
+#     pagerduty.com/service-id:  someServiceId
+#     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/blob/main'      
+# spec:
+#   type: service
+#   lifecycle: experimental
+#   owner: theme4
+#   system: classcraft-system
+#   providesApis: 
+#    - openapi-kafka-rest
+#    - openapi-oas-action
