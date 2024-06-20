@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  namspace: TSG
+  namespace: TSG
   name: HMH-org-location
   description: A collection of all HMH organizations groups
 spec:
