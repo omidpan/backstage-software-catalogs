@@ -7,7 +7,7 @@ metadata:
 spec:
   targets:
     - ./tsg-manager-group.yaml
-    # - ./engineering-group.yaml
+    - ./engineering-group.yaml
     # - ./ed-group.yaml
     # - ./classcraft-group.yaml
     # - ./tsg-eng2-can1-group.yaml
