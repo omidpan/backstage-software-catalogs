@@ -21,6 +21,6 @@ spec:
   type: web
   lifecycle: production
   owner: tsg-eng4-ed-svc
-  system: ed-student-assignments
+  system: ed-assignments
   providesApis:
     - ids-grid-api

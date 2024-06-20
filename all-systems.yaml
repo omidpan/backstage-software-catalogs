@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: classcraft-system
-  description: A collection of classcraft system
+  namespace: TSG
+  name: systems
+  description: A collection of all engineering Systems
 spec:
   targets:
     # - ./systems/classcraft-system.yaml  
