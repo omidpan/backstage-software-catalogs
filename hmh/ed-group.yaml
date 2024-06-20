@@ -9,4 +9,4 @@ spec:
   profile:
     displayName: Ed(organizations)
   parent: eng
-  children: []
+  children: [tsg-eng4-ed-svc]
