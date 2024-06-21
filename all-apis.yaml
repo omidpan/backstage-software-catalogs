@@ -10,4 +10,5 @@ spec:
     - ./apis/session-data-create-classroom-session-api.yaml
     - ./apis/integration-svc-gql-api.yaml
     - ./apis/student-assignments-api.yaml
+    - ./apis/ssession-data-last-in-progress-api.yaml
     # - ./apis/integration-svc-rest-api.yaml    
