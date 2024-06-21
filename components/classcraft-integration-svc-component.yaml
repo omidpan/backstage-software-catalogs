@@ -29,6 +29,6 @@ spec:
   lifecycle: emerging
   owner: tsg-eng2-cms-8
   system: classcraft-system
-  providesApis: []
+  providesApis: [integration-svc-gql]
 #    - openapi-kafka-rest
 #    - openapi-oas-action

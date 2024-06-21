@@ -1,0 +1,41 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  namespace: tsg
+  name: integration-svc-gql
+  description: sessionData createClassroomSession
+  links:
+    - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-integration-svc/blob/main/build/src/main/resources/graphql/schema.graphqls
+      title: GraphQl
+      icon: github
+  tags:
+    - hasura
+    - graphql      
+spec:
+  type: graphql
+  lifecycle: production
+  owner: tsg-eng2-cms-8
+  system: classcraft-system
+  definition: |
+    type _Service {
+    sdl: String!
+    }
+
+    type Query {
+      _service: _Service
+    }
+
+    type Mutation {
+      publishToNexusProxy(publishNexusEventRequest: PublishNexusEventsInput!): String
+    }
+
+    input PublishNexusEventsInput {
+      events: [PublishNexusEventInput!]!
+    }
+
+    input PublishNexusEventInput {
+      sourceAppId: String!
+      eventSchema: String!
+      eventPayload: String!
+      eventNamespace: String!
+    }
