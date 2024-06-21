@@ -4,6 +4,13 @@ metadata:
   name: classcraft-system
   namespace: tsg
   description: Everything related to classcraft services
+  links:
+    - url: https://confluence.hmhco.com/pages/viewpage.action?pageId=286503500
+      title: Session Organizer
+      icon: docs
+    - url: https://concourse.tsg.hmhco.com/
+      title: Concourse CI
+      icon: dashboard           
   tags:
     - microservice
     - hasurra
@@ -13,5 +20,5 @@ metadata:
     - rest
     - react
 spec:
-  owner: [tsg-eng2-can-1, tsg-eng2-cms-8]
+  owner: eng
   domain: ed-platform
