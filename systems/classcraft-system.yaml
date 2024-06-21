@@ -13,5 +13,5 @@ metadata:
     - rest
     - react
 spec:
-  owner: eng
+  owner: [tsg-eng2-can-1, tsg-eng2-cms-8]
   domain: ed-platform
