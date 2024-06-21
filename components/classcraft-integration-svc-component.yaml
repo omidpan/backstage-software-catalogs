@@ -4,7 +4,7 @@ metadata:
   name: classcraft-integration-svc
   namespace: tsg
   description: |
-    Integration service for transactions between HCP, Ed, Hasura, Nexus
+   ## Integration service for transactions between HCP, Ed, Hasura, Nexus
   links:
     - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-integration-svc
       title: classcraft-integration-svc

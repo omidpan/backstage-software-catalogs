@@ -3,7 +3,8 @@ kind: Component
 metadata:
   name: classcraft-session-data-svc
   namespace: tsg
-  description: Manage classcraft session data for classrooms
+  description: |
+    ## Manage classcraft session data for classrooms
   tags:
     - postgres
     - graphql
