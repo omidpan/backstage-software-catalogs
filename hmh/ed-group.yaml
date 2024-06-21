@@ -7,7 +7,7 @@ metadata:
   links:
     - url: https://scm.eng.hmhco.com/Ed-Learning
       title: Ed-Learning
-      icon: github
+      icon: subject
 spec:
   type: business-unit
   profile:
