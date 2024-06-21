@@ -11,4 +11,5 @@ spec:
     - ./apis/integration-svc-gql-api.yaml
     - ./apis/student-assignments-api.yaml
     - ./apis/session-data-last-in-progress-api.yaml
+    - ./apis/userData_CompletedIoStudentDataByClassroomSession-api.yaml
     # - ./apis/integration-svc-rest-api.yaml    

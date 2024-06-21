@@ -1,0 +1,155 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  namespace: tsg
+  name: userData_CompletedIoStudentDataByClassroomSession
+  description: Completed Classroom By Classroom Session
+  links:
+    - url: https://hmhco-my.sharepoint.com/:x:/p/simon_belanger/Efy5U6wBSlFEruxS2wboQcAB5OzuBtq2AGu1Ll9Tb78XHQ?e=8n1iAZ&isSPOFile=1&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA1MDMwNzYxNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D
+      title: sharepoint
+      icon: docs
+  tags:
+    - hasura
+    - graphql
+    - subscription      
+spec:
+  type: graphql
+  lifecycle: production
+  owner: tsg-eng2-can-1
+  system: classcraft-system
+  definition: |
+    "Extended scalar type - UUID"
+    scalar UUID
+      @specifiedBy(url: "https://tools.ietf.org/html/rfc4122")
+    "Extended scalar type - Long"
+    scalar Long
+      @specifiedBy(url: "https://ibm.github.io/graphql-specs/custom-scalars/long.html")
+    "Extended scalar type - DateTime"
+    scalar DateTime
+      @specifiedBy(url: "https://scalars.graphql.org/andimarek/date-time.html")
+    "Extended scalar type - Short"
+    scalar Short
+
+    "Query root"
+    type Query {
+        "Get the latest recommendation for a given tierId(classId/groupId/studentId) and tierType(CLASS/GROUP/STUDENT)."
+        recommendation(tierId: UUID!, tierType: TierType!): Recommendation
+
+        "Get history of all recommendations for a given tierId(classId/groupId/studentId) and tierType(CLASS/GROUP/STUDENT)."
+        recommendationsHistory(tierId: UUID!, tierType: TierType!): [Recommendation]
+
+        "Returns the list of tiers that have recommendations generated for a given list of tiedIds(classId/groupId/studentId) and tierType(CLASS/GROUP/STUDENT)."
+        tiersWithRecommendations(tierIds: [UUID!]!, tierType: TierType!): [TierHavingRecommendation]
+    }
+
+    "Mutation root"
+    type Mutation {
+        "Captures teacher action/feedback(status) for the given resourceId. Updates resource statuses, and returns the updated resource."
+        newRecommendedResourceStatus(resourceId: ID!, action:  RecommendationStatus!): Resource
+
+        "Updates the recommendation status to VIEWED for the given classId and recommendationId."
+        updateRecommendationStatus(recommendationId: ID!): Recommendation
+    }
+
+    "A recommendation"
+    type Recommendation {
+        "Unique id of the recommendation"
+        id: ID!
+        "Tier id"
+        tierId: UUID!
+        "Tier type"
+        tierType: TierType!
+        "The current status"
+        currentStatus: RecommendationStatus!
+        "The associated assessment id"
+        assessmentId: String!
+        "The associated assignment id"
+        assignmentId: UUID!
+        "Critical skills for which resources are recommended"
+        skills: [Skill!]!
+        "Date and time the recommendation was generated at"
+        createdOn: DateTime!
+    }
+
+    "Tells if the tier has recommendation generated or not."
+    type TierHavingRecommendation {
+        recommendationId: ID!
+        "Tier id"
+        tierId: UUID!
+        "Tier type"
+        tierType: TierType!
+        "Indicates if the tier has recommendation or not"
+        hasRecommendation: Boolean!
+    }
+
+    "A critical skill"
+    type Skill {
+        "Unique id of the skill"
+        id: ID!
+        "Skill code"
+        skillCode: String!
+        "Skill label"
+        skillLabel: String!
+        "The main standard code associated to the skill"
+        standardCode: String!
+        "The main standard label associated to the skill"
+        standardLabel: String!
+        "Rank"
+        rank: Short
+        "List of resources recommended"
+        resources: [Resource!]!
+    }
+
+    "A resource recommended"
+    type Resource {
+        "Unique id of the resource"
+        id: ID!
+        "Resource Id - comes from SageMaker ML Feature Store"
+        resourceId: String!
+        "Explanation text"
+        explanation: String
+        "Rank"
+        rank: Short
+        "current Status"
+        currentStatus: RecommendationStatus
+        "States that the recommended resource went through"
+        statuses: [ResourceStatus!]!
+    }
+
+    "A resource status"
+    type ResourceStatus {
+        "Unique id of the resource status"
+        id: ID!
+        "The status"
+        status: RecommendationStatus!
+        "Date and time this status got created at"
+        createdOn: DateTime!
+    }
+
+    "An enumeration of tier types"
+    enum TierType {
+        "A class of students"
+        CLASS
+        "A group of students"
+        GROUP
+        "A student"
+        STUDENT
+    }
+
+    "An enumeration of statuses that a recommended resource can go through"
+    enum RecommendationStatus {
+        "Generated resource recommendation"
+        GENERATED
+        "Resource recommended "
+        RECOMMENDED
+        "Recommendation viewed "
+        VIEWED
+        "Teacher added it to favorite list"
+        FAVORITED
+        "Teacher added it to custom lesson plan"
+        ADDED_TO_MY_LESSON
+        "Teacher added it to ClassCraft Session Organizer"
+        ADDED_TO_SESSION_ORGANIZER
+        "Teacher directly assigned it to student"
+        ASSIGNED
+    }

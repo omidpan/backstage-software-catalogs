@@ -21,12 +21,12 @@ metadata:
   tags:
     - hasura
     - postgres
-    - mutation
     - subscription
-
+    - teacher
+    - classroom-view
 spec:
   type: service
   lifecycle: active
   owner: tsg-eng2-can-1
   system: classcraft-system
-  providesApis: []
+  providesApis: [userData_CompletedIoStudentDataByClassroomSession]
