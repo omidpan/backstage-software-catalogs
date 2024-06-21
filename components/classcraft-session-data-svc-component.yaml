@@ -23,5 +23,5 @@ spec:
   lifecycle: active
   owner: tsg-eng2-can-1
   system: classcraft-system
-  providesApis: []
+  providesApis: [session-data-create-classroom-session]
   # providesApis: [session-data-graphql]

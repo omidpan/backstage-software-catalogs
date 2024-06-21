@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  namespace: TSG
-  name: session-data-graphql
-  description: SWAPI GraphQL Schema
+  namespace: tsg
+  name: session-data-create-classroom-session
+  description: sessionData createClassroomSession
   links:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main/metadata/actions.graphql
       title: classcraft Actioln Graphql
@@ -14,7 +14,7 @@ metadata:
 spec:
   type: graphql
   lifecycle: production
-  owner: theme4
+  owner: tsg-en2-cms-8
   definition: |
     schema {
       query: Root

@@ -7,6 +7,6 @@ metadata:
 spec:
   targets:
     # - ./apis/integration-svc-openai-api.yaml
-    # - ./apis/session-data-graphql.yaml
+    - ./apis/session-data-create-classroom-session-api.yaml
     - ./apis/student-assignments-api.yaml
     # - ./apis/integration-svc-rest-api.yaml    
