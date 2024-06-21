@@ -13,7 +13,7 @@ metadata:
     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main'
   links:
     - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service
-      title: classcraft-session-data-svc
+      title: session-data-svc
       icon: github
     - url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
       title: datadog
@@ -29,5 +29,3 @@ spec:
   system: classcraft-system
   providesApis: []
   # providesApis: [session-data-graphql]
-
-
