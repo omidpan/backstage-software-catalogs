@@ -7,6 +7,6 @@ metadata:
 spec:
   targets:
     # - ./components/classcraft-integration-svc-component.yaml
-    # - ./components/classcraft-session-data-svc-component.yaml
+    - ./components/classcraft-session-data-svc-component.yaml
     - ./components/classcraft-user-data-svc-component.yaml    
     - ./components/assignments-component.yaml

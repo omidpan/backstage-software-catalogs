@@ -10,14 +10,14 @@ metadata:
     - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-user-data-service
       title: user-data-svc Repo
       icon: github
-    - url: https://houghton-mifflin-harcourt.datadoghq.com/notebook/8162472/userdata-savestudentdatavalues
+    - url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/pq3-z92-iyb/classcraft-user-data-svc
       title: datadog
       icon: dashboard      
   annotations:
     pagerduty.com/integration-key: someToken
     pagerduty.com/service-id:  someServiceId
     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-user-data-service'
-    datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/notebook/8162472/userdata-savestudentdatavalues
+    datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/pq3-z92-iyb/classcraft-user-data-svc
   tags:
     - hasura
     - postgres
