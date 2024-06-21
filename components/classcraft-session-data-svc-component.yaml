@@ -3,22 +3,21 @@ kind: Component
 metadata:
   name: classcraft-session-data-svc
   namespace: tsg
-  description: |
-    Manage classcraft session data for classrooms
-  tags:
-    - postgres
-    - graphql
-    - Hasura integration    
-  annotations:
-    datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
-    backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main'
-  links:
-    - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-session-data-service
-      title: session-data-svc
-      icon: github
-    - url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
-      title: datadog
-      icon: dashboard          
+  description: Manage classcraft session data for classrooms
+  # tags:
+  #   - postgres
+  #   - graphql
+  #   - Hasura integration    
+  # annotations:
+  #   datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
+  #   backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main'
+  # links:
+  #   - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-session-data-service
+  #     title: session-data-svc
+  #     icon: github
+  #   - url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
+  #     title: datadog
+  #     icon: dashboard          
 spec:
   type: service
   lifecycle: active
