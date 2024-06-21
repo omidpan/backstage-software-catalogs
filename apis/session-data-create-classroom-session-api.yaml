@@ -5,8 +5,8 @@ metadata:
   name: session-data-create-classroom-session
   description: sessionData createClassroomSession
   links:
-    - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main/metadata/actions.graphql
-      title: classcraft Actioln Graphql
+    - url: https://scm.eng.hmhco.com/Ed-Learning/ml-recommendation-svc/blob/main/service/src/main/resources/graphql/schema.graphqls
+      title: schema graph(example)
       icon: github
   tags:
     - hasura
