@@ -20,7 +20,7 @@ metadata:
     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/blob/main'
   tags:
     - nexus
-    - Kafka
+    - kafka
     - actions
     - s3
     - hasura
