@@ -25,8 +25,8 @@ metadata:
     - s3
     - hasura
 spec:
-  type: emerging
-  lifecycle: active
+  type: service
+  lifecycle: emerging
   owner: tsg-eng2-cms-8
   system: classcraft-system
   providesApis: []
