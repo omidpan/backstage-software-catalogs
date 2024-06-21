@@ -14,7 +14,7 @@ metadata:
 spec:
   type: graphql
   lifecycle: production
-  owner: tsg-eng2-cms-8
+  owner: tsg-eng2-can-1
   system: classcraft-system
   definition: |
     "Extended scalar type - UUID"
