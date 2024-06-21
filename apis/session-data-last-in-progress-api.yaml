@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   namespace: tsg
-  name: session-data-last-in-progress
+  name: sessionDataLastInProgress
   description: Get Last in Progress session data
   links:
     - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-session-data-service/blob/main/metadata/actions.graphql
