@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   namespace: tsg
-  name: session-data-create-classroom-session
-  description: sessionData createClassroomSession
+  name: sessionDataCreateClassroomSession
+  description: create Classroom Session
   links:
     - url: https://scm.eng.hmhco.com/Ed-Learning/ml-recommendation-svc/blob/main/service/src/main/resources/graphql/schema.graphqls
       title: schema graph(example)
