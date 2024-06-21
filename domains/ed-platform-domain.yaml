@@ -4,16 +4,18 @@ metadata:
   namespace: tsg
   name: ed-platform
   description: ED is the teaching and learning system that combines the best of technology, content, and instruction to provide a personalized experience with HMH programs.
-  links:
-    - url: https://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
-      title: Ed Platform Services
-    - url: https://scm.eng.hmhco.com/Ed-Learning
-      title: Ed Learning
-    - url: https://www.hmhco.com/ui/login/
-      title: Login
+  # links:
+  #   - url: https://confluence.hmhco.com/display/EDPS/Ed+Platform+Services
+  #     title: Ed Platform Services
+  #   - url: https://scm.eng.hmhco.com/Ed-Learning
+  #     title: Ed Learning
+  #   - url: https://www.hmhco.com/ui/login/
+  #     title: Login
   tags:
     - ed
     - classcraft
     - lift
+    - front-end
+    - back-end
 spec:
   owner: eng
