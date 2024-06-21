@@ -8,9 +8,13 @@ metadata:
     - url: https://scm.eng.hmhco.com/Ed-Learning/ml-recommendation-svc/blob/main/service/src/main/resources/graphql/schema.graphqls
       title: schema graph(example)
       icon: github
+    - url: https://houghton-mifflin-harcourt.datadoghq.com/notebook/8063283/-create-classroom-sessions
+      title: Datadog metrics
+      icon: dashboard
   tags:
     - hasura
-    - graphql      
+    - graphql
+    - mutation      
 spec:
   type: graphql
   lifecycle: production
