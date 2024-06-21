@@ -3,7 +3,7 @@ kind: API
 metadata:
   namespace: tsg
   name: session-data-last-in-progress
-  description: sessionData createClassroomSession
+  description: Get Last in Progress session data
   links:
     - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-session-data-service/blob/main/metadata/actions.graphql
       title: actions schema
