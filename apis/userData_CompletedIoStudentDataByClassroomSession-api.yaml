@@ -18,4 +18,6 @@ spec:
   owner: tsg-eng2-can-1
   system: classcraft-system
   definition: |
-     "TBD"
+    type Query {
+      _empty: String
+    }
