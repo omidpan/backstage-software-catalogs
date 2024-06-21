@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   namespace: stg
-  name: ed-and-classcraft-components
+  name: components
   description: A collection of all componets locations
 spec:
   targets:
     # - ./components/classcraft-integration-svc-component.yaml
     # - ./components/classcraft-session-data-svc-component.yaml
-    # - ./components/classcraft-user-data-svc-component.yaml    
+    - ./components/classcraft-user-data-svc-component.yaml    
     - ./components/assignments-component.yaml
