@@ -13,6 +13,6 @@ metadata:
   - assignments
   - ed-platform
 spec:
-  owner: tsg-eng4-ed-svc
+  owner: eng/tsg-eng4-ed-svc
   domain: ed-platform
 
