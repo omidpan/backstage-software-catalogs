@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  namespace: tsg
+  name: userData_saveStudentDataValues
+  description: |
+    ## Save Student Data Value
+    - jira(CCSO-237)
+  links:
+    - url: https://houghton-mifflin-harcourt.datadoghq.com/notebook/8162472/userdata-savestudentdatavalues
+      title: Datadog metrics
+      icon: dashboard
+  tags:
+    - hasura
+    - graphql
+    - mutation
+    - student    
+spec:
+  type: graphql
+  lifecycle: production
+  owner: tsg-eng2-can-1
+  system: classcraft-system
+  definition: |
+    type Query {
+      _empty: String
+    }

@@ -12,4 +12,5 @@ spec:
     - ./apis/student-assignments-api.yaml
     - ./apis/session-data-last-in-progress-api.yaml
     - ./apis/userData_CompletedIoStudentDataByClassroomSession-api.yaml
+    - ./apis/userData_saveStudentDataValues-api.yaml
     # - ./apis/integration-svc-rest-api.yaml    

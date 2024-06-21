@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: classcraft-user-data-svc
   namespace: tsg
-  # This is an extra long description with Markdown
   description: |
     Manage classcraft user data for classrooms
   links:
@@ -29,4 +28,4 @@ spec:
   lifecycle: active
   owner: tsg-eng2-can-1
   system: classcraft-system
-  providesApis: [userData_CompletedIoStudentDataByClassroomSession]
+  providesApis: [userData_CompletedIoStudentDataByClassroomSession,userData_saveStudentDataValues]
