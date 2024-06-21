@@ -1,15 +1,17 @@
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name: classcraft-system
-#   namespace: TSG
-#   description: Everything related to classcraft
-#   tags:
-#     - microservice
-#     - hasurra
-#     - nexus
-#     - springboot
-# spec:
-#   owner: theme4
-#   domain: classcraft
-#   subdomainOf: Ed
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: classcraft-system
+  namespace: tsg
+  description: Everything related to classcraft services
+  tags:
+    - microservice
+    - hasurra
+    - nexus
+    - springboot
+    - graphql
+    - rest
+    - react
+spec:
+  owner: eng
+  domain: ed

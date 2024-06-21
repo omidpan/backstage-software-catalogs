@@ -6,5 +6,5 @@ metadata:
   description: A collection of all engineering Systems
 spec:
   targets:
-    # - ./systems/classcraft-system.yaml  
+    - ./systems/classcraft-system.yaml  
     - ./systems/ed-student-assignments.yaml

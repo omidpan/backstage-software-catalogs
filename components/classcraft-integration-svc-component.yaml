@@ -5,7 +5,7 @@
 #   namespace: TSG
 #   # This is an extra long description with Markdown
 #   description: |
-#     Pub sub service to Nexus message broker and handle Hasura Actions
+#     Integration service for transactions between HCP, Ed, Hasura, Nexus
 #     - Nexus SDK
 #     - Kafka
 #     - Hasura Actons
