@@ -17,7 +17,8 @@ metadata:
   annotations:
     pagerduty.com/integration-key: someToken
     pagerduty.com/service-id:  someServiceId
-    backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-user-data-service'      
+    backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-user-data-service'
+    datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/notebook/8162472/userdata-savestudentdatavalues?view=view-mode    
 spec:
   type: service
   lifecycle: active

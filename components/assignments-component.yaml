@@ -19,7 +19,7 @@ metadata:
     # datadoghq.com/graph-token: someToken      
 spec:
   type: web
-  lifecycle: production
+  lifecycle: active
   owner: tsg-eng4-ed-svc
   system: ed-assignments
   providesApis:
