@@ -18,6 +18,9 @@ metadata:
     - url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
       title: datadog
       icon: dashboard          
+    - url: https://concourse.tsg.hmhco.com/teams/classcraft-session-data-svc-nonprod/pipelines/session-data-svc-nonprod%20https:/concourse.tsg.hmhco.com/teams/classcraft-session-data-svc-nonprod/pipelines/session-data-svc-cert
+      title: pipeline
+      icon: dashboard          
 spec:
   type: service
   lifecycle: active

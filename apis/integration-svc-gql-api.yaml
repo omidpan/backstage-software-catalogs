@@ -6,7 +6,7 @@ metadata:
   description: sessionData createClassroomSession
   links:
     - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-integration-svc/blob/main/build/src/main/resources/graphql/schema.graphqls
-      title: GraphQl
+      title: GraphQL schema
       icon: github
   tags:
     - hasura
