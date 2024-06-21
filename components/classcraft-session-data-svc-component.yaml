@@ -5,23 +5,20 @@ metadata:
   namespace: tsg
   description: |
     Manage classcraft session data for classrooms
+  tags:
+    - postgres
+    - graphql
+    - Hasura integration    
   annotations:
     datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
-    # datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
-    # datadoghq.com/graph-size: 'large'
-    pagerduty.com/integration-key: someToken        
     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-session-data-service/blob/main'
   links:
-    - url: https://scm.eng.hmhco.com/panahio/classcraft-session-data-service
+    - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-session-data-service
       title: session-data-svc
       icon: github
     - url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/czh-9bh-q3v/classcraft-session-data-svc
       title: datadog
-      icon: dashboard      
-  tags:
-    - postgres
-    - graphql
-    - Hasura integration        
+      icon: dashboard          
 spec:
   type: service
   lifecycle: active
