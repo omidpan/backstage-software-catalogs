@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: templates
+  namespace: tsg
   description: a collection of user templates
 spec:
   targets:
