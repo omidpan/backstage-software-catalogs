@@ -14,4 +14,4 @@ metadata:
     - react
 spec:
   owner: eng
-  domain: ed
+  domain: ed-platform
