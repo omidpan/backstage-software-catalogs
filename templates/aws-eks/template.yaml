@@ -7,7 +7,11 @@ metadata:
   description: Deploy a Node.js Application on AWS EKS cluster using Terraform
   namespace: tsg
   annotations:
-    github.com/project-slug: omidpan/aws-eks  
+    github.com/project-slug: omidpan/aws-eks
+  links:
+    - url: https://doc-server.prod.hmheng-infra.br.internal/src/terraform.html
+      title: terraform in Bedrock
+      icon: docs      
 spec:
   owner: bedrock
   type: service
