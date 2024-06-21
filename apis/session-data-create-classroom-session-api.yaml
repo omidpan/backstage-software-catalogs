@@ -14,7 +14,7 @@ metadata:
 spec:
   type: graphql
   lifecycle: production
-  owner: tsg-en2-cms-8
+  owner: tsg-eng2-cms-8
   definition: |
     schema {
       query: Root
