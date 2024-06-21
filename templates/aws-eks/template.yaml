@@ -9,7 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: omidpan/aws-eks  
 spec:
-  owner: eng/bedrock
+  owner: bedrock
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are
