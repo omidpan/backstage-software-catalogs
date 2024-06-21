@@ -4,9 +4,13 @@ metadata:
   namespace: tsg
   name: ed
   description: The Ed platform organization
+  links:
+    - url: https://scm.eng.hmhco.com/Ed-Learning
+      title: Ed-Learning
+      icon: github
 spec:
   type: business-unit
   profile:
-    displayName: Ed(organizations)
+    displayName: Ed
   parent: eng
   children: [tsg-eng4-ed-svc ,tsg-eng2-can-1, tsg-eng2-cms-8]
