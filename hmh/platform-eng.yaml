@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: plaform-eng
+  description: The design allows for developers to use the platform without intimate knowledge of how the individual parts work.
+  namespace: tsg
+spec:
+  type: team
+  profile:
+    displayName: Platform Integ
+  parent: bedrock
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: engineer-1
+  namespace: tsg  
+spec:
+  profile:
+    displayName: Engineer 1
+    email: email@hmhco.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [platform-eng]

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: tsg
+  name: bedrock
+  description: The Bedrock Platform is the internal name for the Platform as a Service (PaaS) built on top of Mesos and Aurora
+  links:
+    - url: https://doc-server.prod.hmheng-infra.br.internal/index.html
+      title: Bedrock documentation
+      icon: internal
+spec:
+  type: business-unit
+  profile:
+    displayName: bedrock
+  parent: eng
+  children: [platform-eng]
