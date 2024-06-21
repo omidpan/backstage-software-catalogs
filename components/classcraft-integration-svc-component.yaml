@@ -1,30 +1,34 @@
-# apiVersion: backstage.io/v1alpha1
-# kind: Component
-# metadata:
-#   name: classcraft-integration-svc
-#   namespace: TSG
-#   # This is an extra long description with Markdown
-#   description: |
-#     Integration service for transactions between HCP, Ed, Hasura, Nexus
-#     - Nexus SDK
-#     - Kafka
-#     - Hasura Actons
-#     - S3
-#   links:
-#     - url: https://scm.eng.hmhco.com/panahio/classcraft-integration-svc
-#       title: classcraft-integration-svc
-#       icon: github
-#   annotations:
-#     datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/kb7-pbm-s4y/classcraft-integration-svc
-#     datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
-#     pagerduty.com/integration-key: someToken
-#     pagerduty.com/service-id:  someServiceId
-#     backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/blob/main'      
-# spec:
-#   type: service
-#   lifecycle: experimental
-#   owner: theme4
-#   system: classcraft-system
-#   providesApis: 
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: classcraft-integration-svc
+  namespace: tsg
+  description: |
+    Integration service for transactions between HCP, Ed, Hasura, Nexus
+  links:
+    - url: https://scm.eng.hmhco.com/Ed-Learning/classcraft-integration-svc
+      title: classcraft-integration-svc
+      icon: github
+    - url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/kb7-pbm-s4y/classcraft-integration-svc
+      title: datadog
+      icon: dashboard       
+  annotations:
+    datadoghq.com/dashboard-url: https://houghton-mifflin-harcourt.datadoghq.com/dashboard/kb7-pbm-s4y/classcraft-integration-svc
+    datadoghq.com/graph-token: '{{ DATADOG_TOKEN }}'
+    pagerduty.com/integration-key: someToken
+    pagerduty.com/service-id:  someServiceId
+    backstage.io/techdocs-ref: 'url:https://scm.eng.hmhco.com/panahio/classcraft-integration-svc/blob/main'
+  tags:
+    - nexus
+    - Kafka
+    - actions
+    - s3
+    - hasura
+spec:
+  type: emerging
+  lifecycle: active
+  owner: tsg-eng2-cms-8
+  system: classcraft-system
+  providesApis: []
 #    - openapi-kafka-rest
 #    - openapi-oas-action
